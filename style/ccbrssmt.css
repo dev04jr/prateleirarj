@@ -1,0 +1,13 @@
+body{
+    background-color: #062c2c;
+}
+.wrapper{
+    height: 75vh;
+}
+.jim-ibox{
+    text-align: center;
+    height: 530px;
+}
+.box{
+    margin-bottom: 0;
+}
