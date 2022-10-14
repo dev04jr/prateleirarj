@@ -1,0 +1,18 @@
+body{
+    background-color: #062c2c;
+}
+.jim-ibox{
+    text-align: center;
+    height: 595px;
+}
+.box{
+    margin-bottom: 0;
+}
+.jim-content{
+    height: 595px;
+}
+@media(max-width:1366px){
+    .jim-content{
+        height: 420px;
+    }
+}
