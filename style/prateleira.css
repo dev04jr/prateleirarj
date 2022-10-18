@@ -1,0 +1,145 @@
+body{
+    height: 75vh;
+    background-color: #062c2c;
+}
+.imagemDeFundo{
+    background: url('./prateleira.png') no-repeat; 
+    width: auto;
+    height: 500px;
+}
+.rj-templates{
+    border-radius: 5px;
+    transition: all .5s;
+    width: 100px;
+
+}
+.rj-templates:hover{
+    border: 3px solid #062C2C;
+    border-radius: 10%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+.prateleira{
+    text-align: center;
+}
+.rj-div-col1{
+    letter-spacing: 15px;
+    margin-top: -67%;
+    left: 24%;
+    position: relative;
+}
+.rj-div-col2{
+    letter-spacing: 15px;
+    margin-top: -49%;
+    left: 24%;
+    position: relative;
+}
+.rj-div-col3{
+    left: 38%;
+    margin-top: -34%;
+}
+.rj-div-col3 img{
+    opacity: 0.6;
+    width: 93%;
+}
+
+
+
+@media(max-width:1380px){
+    .prateleira img{
+        width: 625px;
+    }
+    .rj-templates{
+        width: 80px;
+    }
+    .rj-div-col2{
+        margin-top: -34%;
+        left: 30%;
+    }
+    .rj-div-col1{
+        margin-top: -45%;
+        left: 30%;
+    }
+    .rj-div-col3{
+        left: 41%;
+        margin-top: -24%;
+    }
+    .rj-div-col3 img{
+        width: 69%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 835px){
+    .rj-div-col1{
+        text-align: center;
+        width: 60%;
+        margin-top: -70%;
+        left: 22%;
+    }
+    .rj-div-col2{
+        text-align: center;
+        margin-top: -52%;
+        left: 22%;
+    }
+    .rj-div-col3{
+        margin-top: -31%;
+    }
+}
+ 
+
+/* Mobile */
+@media(max-width:580px){
+
+    .prateleira img{
+        width: 100%;
+        height: 550px;
+        margin-top: 40%;
+    }
+    .rj-templates{
+        width: 50px;
+    }
+    .rj-div-col2{
+        left: 0px;
+        text-align: center;
+    }
+    .rj-div-col1{
+        margin-top: -102%;
+        left: 0px;
+        text-align: center;
+    }
+    .rj-div-col3{
+        left: 0px;
+        text-align: center;
+    }
+    .rj-div-col3 img{
+        width: 30%;
+    }
+}
+
+@media(max-width:450px){
+    .rj-div-col1{
+        margin-top: -113%;
+        margin-bottom: 50%;
+    }
+    .rj-div-col2{
+        margin-bottom: 35%;
+    }
+}
+
+@media(max-width:360px){
+    .prateleira img{
+        width: 100%;
+        height: 550px;
+        margin-top: 40%;
+    }
+    .rj-templates{
+        width: 40px;
+    }
+    .rj-div-col1{
+        margin-top: -118%;
+    }
+}
+
